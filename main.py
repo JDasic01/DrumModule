@@ -24,10 +24,10 @@ class Pad(pygame.sprite.Sprite):
 
 pygame.init()
 screen = pygame.display.set_mode((875,760))
-pygame.display.set_caption('Runner')
+pygame.display.set_caption('DrumModule')
 clock = pygame.time.Clock()
 
-background_surface = pygame.image.load('drum_kit.png').convert()
+background_surface = pygame.image.load('assets\drum_kit.png').convert()
 background_rect = background_surface.get_rect(center = (437, 380))
 
 while True:
